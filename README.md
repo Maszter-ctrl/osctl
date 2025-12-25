@@ -29,11 +29,11 @@ cargo build --release
 
 ```
 
-Run the program with: cargo run -- [COMMAND]
+Run the program with: ```bash cargo run -- [COMMAND] ```
 
 For example expecting:
 
-packages:
+```bash packages:
   install:
     - git
     - curl
@@ -45,3 +45,4 @@ services:
     - ssh
   disable:
     - bluetooth
+```

@@ -27,6 +27,7 @@ git clone https://github.com/Maszter-ctrl/osctl.git
 cd osctl
 cargo build --release
 
+```
 
 Run the program with: cargo run -- [COMMAND]
 

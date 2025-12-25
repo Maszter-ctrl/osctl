@@ -20,6 +20,14 @@
 
 You need [Rust](https://www.rust-lang.org/tools/install) installed. Then, clone this repo and build:
 
+
+
+```bash
+git clone https://github.com/Maszter-ctrl/osctl.git
+cd osctl
+cargo build --release
+
+
 Run the program with: cargo run -- [COMMAND]
 
 For example expecting:
@@ -36,9 +44,3 @@ services:
     - ssh
   disable:
     - bluetooth
-
-
-```bash
-git clone https://github.com/yourusername/osctl.git
-cd osctl
-cargo build --release

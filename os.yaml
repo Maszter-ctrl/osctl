@@ -1,0 +1,8 @@
+packages:
+  install:
+    - git
+    - curl
+
+services:
+  enable:
+    - ssh

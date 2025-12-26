@@ -1,5 +1,9 @@
 # osctl
 
+
+![alt text](https://github.com/Maszter-ctrl/osctl/blob/main/logo.jpg)
+
+
 **Declarative OS Configuration Tool**
 
 `osctl` is a Rust-based command-line tool that lets you manage your macOS system declaratively. Instead of manually installing packages or enabling services, you define your desired system state in a YAML file (`os.yaml`) and let `osctl` apply the changes.
